@@ -25,6 +25,14 @@ export default {
 };
 ```
 
+### Importing assets
+
+Static assets exposed by the package can be imported like any other module. This lets bundlers include images or fonts alongside your code:
+
+```javascript
+import logo from '@SivaG2025/flw-theme/assets/logo.png';
+```
+
 ### Overriding tokens
 
 The package exposes design tokens as CSS variables. You can override any token by redefining it after importing `base.css`.
